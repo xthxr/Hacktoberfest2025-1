@@ -23,7 +23,7 @@ int main() {
     generateSubsets(nums, 0, current, result);
 
     cout << "All subsets:\n";
-    for (auto subset : result) {
+    for (const auto& subset : result) {
         cout << "{ ";
         for (int x : subset) cout << x << " ";
         cout << "}\n";
