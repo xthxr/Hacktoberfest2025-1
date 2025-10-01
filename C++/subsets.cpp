@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 void generateSubsets(vector<int>& nums, int index, vector<int>& current, vector<vector<int>>& result) {
